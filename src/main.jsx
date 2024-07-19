@@ -27,7 +27,7 @@ import ModelLearnApp from './components/ModelLearnApp.jsx'
 
 // import './index.css'
 ReactDOM.createRoot(document.getElementById('root2')).render(
-  <React.StrictMode>
+   <>
     {/* <TextUtills /> */}
     {/* <App /> */}
     {/* <Home /> */}
@@ -52,5 +52,6 @@ ReactDOM.createRoot(document.getElementById('root2')).render(
     <TaskManagerApp />
     {/* <ThemeToggle /> */}
     {/* <ModelLearnApp /> */}
-  </React.StrictMode>,
+    </>
+
 )
