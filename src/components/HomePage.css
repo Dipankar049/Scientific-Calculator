@@ -1,0 +1,20 @@
+.homepage-container {
+    padding: 20px;
+  }
+  
+  .task-list, .special-task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-item, .special-task-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .task-item input {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
